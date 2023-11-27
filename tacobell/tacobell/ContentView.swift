@@ -1,41 +1,52 @@
-//
-//  ContentView.swift
-//  tacobell
-//
-//  Created by Akhil Motiramani on 11/18/23.
-//
-
 import SwiftUI
+
+
+extension Color {
+    static let customPurple = Color(red: 57/255, green: 30/255, blue: 100/255, opacity: 1.0)
+}
+
 
 struct ContentView: View {
     var body: some View {
-        
-    VStack {
-        
-        HStack{
-            Text("Add location info")
-        }
-            
-            
-        HStack {
-            VStack {
-                Text("Hey, Akhil")
-                HStack {
-                    Image(systemName:"envelope.fill")
-                    Text("INBOX")
-                    Image(systemName:"number.circle.fill")
+        TabView{
+            homeView()
+                .tabItem(){
+                    Image(systemName: "bell")
+                    Text("Home")
                 }
-                Spacer()
+            
+            menuView()
+                .tabItem(){
+                    Image(systemName: "takeoutbag.and.cup.and.straw")
+                    Text("Menu")
+                }
+            
+            rewardsView()
+                .tabItem(){
+                    Image(systemName: "flame")
+                    Text("Rewards")
+                }
+            profileView()
+                .tabItem(){
+                    Image(systemName: "person.crop.circle")
+                    Text("Profile")
+                }
+        }
+        
+        .onAppear {
+            let appearance = UITabBarAppearance()
+            appearance.backgroundColor = UIColor.white
+            
+            UITabBar.appearance().standardAppearance = appearance
+            if #available(iOS 15.0, *) {
+                UITabBar.appearance().scrollEdgeAppearance = appearance
             }
-            Spacer()
         }
-            
-            
-            
-            
-        }
+     
+        
     }
 }
+
 
 #Preview {
     ContentView()

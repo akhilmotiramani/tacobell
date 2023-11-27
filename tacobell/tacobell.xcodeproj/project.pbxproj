@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE30A5F82B1388E600E2797F /* rewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30A5F72B1388E600E2797F /* rewardsView.swift */; };
+		DE30A5FA2B1388EF00E2797F /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30A5F92B1388EF00E2797F /* profileView.swift */; };
+		DE30A5FC2B13901E00E2797F /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30A5FB2B13901E00E2797F /* homeView.swift */; };
+		DEB1C17C2B12436400B69B23 /* promoHscroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1C17B2B12436400B69B23 /* promoHscroll.swift */; };
+		DEB1C17E2B1299FE00B69B23 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1C17D2B1299FE00B69B23 /* menuView.swift */; };
 		DED0EF0D2B097A9D00F5D79D /* tacobellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0EF0C2B097A9D00F5D79D /* tacobellApp.swift */; };
 		DED0EF0F2B097A9D00F5D79D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0EF0E2B097A9D00F5D79D /* ContentView.swift */; };
 		DED0EF112B097A9E00F5D79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED0EF102B097A9E00F5D79D /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE30A5F72B1388E600E2797F /* rewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewardsView.swift; sourceTree = "<group>"; };
+		DE30A5F92B1388EF00E2797F /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
+		DE30A5FB2B13901E00E2797F /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		DEB1C17B2B12436400B69B23 /* promoHscroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promoHscroll.swift; sourceTree = "<group>"; };
+		DEB1C17D2B1299FE00B69B23 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
 		DED0EF092B097A9D00F5D79D /* tacobell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tacobell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED0EF0C2B097A9D00F5D79D /* tacobellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tacobellApp.swift; sourceTree = "<group>"; };
 		DED0EF0E2B097A9D00F5D79D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +61,13 @@
 		DED0EF0B2B097A9D00F5D79D /* tacobell */ = {
 			isa = PBXGroup;
 			children = (
-				DED0EF0C2B097A9D00F5D79D /* tacobellApp.swift */,
 				DED0EF0E2B097A9D00F5D79D /* ContentView.swift */,
+				DE30A5FB2B13901E00E2797F /* homeView.swift */,
+				DEB1C17D2B1299FE00B69B23 /* menuView.swift */,
+				DE30A5F72B1388E600E2797F /* rewardsView.swift */,
+				DE30A5F92B1388EF00E2797F /* profileView.swift */,
+				DED0EF0C2B097A9D00F5D79D /* tacobellApp.swift */,
+				DEB1C17B2B12436400B69B23 /* promoHscroll.swift */,
 				DED0EF102B097A9E00F5D79D /* Assets.xcassets */,
 				DED0EF122B097A9E00F5D79D /* Preview Content */,
 			);
@@ -138,6 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED0EF0F2B097A9D00F5D79D /* ContentView.swift in Sources */,
+				DEB1C17E2B1299FE00B69B23 /* menuView.swift in Sources */,
+				DE30A5FC2B13901E00E2797F /* homeView.swift in Sources */,
+				DE30A5FA2B1388EF00E2797F /* profileView.swift in Sources */,
+				DEB1C17C2B12436400B69B23 /* promoHscroll.swift in Sources */,
+				DE30A5F82B1388E600E2797F /* rewardsView.swift in Sources */,
 				DED0EF0D2B097A9D00F5D79D /* tacobellApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
