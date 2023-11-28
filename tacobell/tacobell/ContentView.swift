@@ -6,10 +6,13 @@ extension Color {
 }
 
 
+
 struct ContentView: View {
+    @State private var userName: String = ""
+    
     var body: some View {
         TabView{
-            homeView()
+            homeView(name: $userName)
                 .tabItem(){
                     Image(systemName: "bell")
                     Text("Home")

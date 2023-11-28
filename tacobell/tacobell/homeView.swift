@@ -9,7 +9,11 @@ import Foundation
 
 import SwiftUI
 
+
 struct homeView: View {
+    
+    @Binding var name: String
+    
     var body: some View {
         
         
@@ -26,7 +30,7 @@ struct homeView: View {
                 .frame(width: 10)
                 VStack {
                     HStack {
-                        Text("Hey, Akhil")
+                        Text("Hey, \(name)")
                             .font(.largeTitle)
                             .fontWeight(.bold)
                         Spacer()
@@ -78,6 +82,9 @@ struct homeView: View {
     }
 }
 
-#Preview {
-    homeView()
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        homeView(name: .constant("Sample User"))
+    }
 }
+

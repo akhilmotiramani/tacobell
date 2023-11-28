@@ -10,10 +10,15 @@ import SwiftUI
 
 
 struct profileView: View {
+    @State private var name = ""
+    
     var body: some View {
         
-        Text("Hello")
-        
+        Form {
+            TextField("Enter your name", text: $name)
+            Text("\(name)")
+            
+        }
     }
 }
 
