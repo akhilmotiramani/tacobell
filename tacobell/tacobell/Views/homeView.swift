@@ -12,7 +12,6 @@ import SwiftUI
 
 struct homeView: View {
     
-    @Binding var name: String
     
     var body: some View {
         
@@ -30,7 +29,7 @@ struct homeView: View {
                 .frame(width: 10)
                 VStack {
                     HStack {
-                        Text("Hey, \(name)")
+                        Text("Hey, ")
                             .font(.largeTitle)
                             .fontWeight(.bold)
                         Spacer()
