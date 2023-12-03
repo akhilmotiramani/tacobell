@@ -1,8 +1,17 @@
-//
-//  profileView2.swift
-//  tacobell
-//
-//  Created by Akhil Motiramani on 11/30/23.
-//
-
+import SwiftUI
 import Foundation
+
+struct profileView2: View {
+    var body: some View {
+       
+    }
+}
+
+
+
+
+
+#Preview {
+    profileView2()
+}
+

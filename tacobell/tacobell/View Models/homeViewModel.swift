@@ -8,5 +8,7 @@
 import Foundation
 
 class homeViewModel: ObservableObject{
-    
+    @Published var firstName:String = ""
+    @Published var lastName:String = ""
+    @Published var email:String = ""
 }

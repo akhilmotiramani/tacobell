@@ -10,25 +10,41 @@
 		DE30A5F82B1388E600E2797F /* rewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30A5F72B1388E600E2797F /* rewardsView.swift */; };
 		DE30A5FA2B1388EF00E2797F /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30A5F92B1388EF00E2797F /* profileView.swift */; };
 		DE30A5FC2B13901E00E2797F /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30A5FB2B13901E00E2797F /* homeView.swift */; };
+		DE4A6A952B171EE4008C5ECF /* newItemsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A6A942B171EE4008C5ECF /* newItemsMenuView.swift */; };
+		DE6B6A662B16720500B2B72C /* homeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B6A652B16720500B2B72C /* homeViewModel.swift */; };
 		DEB1C17C2B12436400B69B23 /* promoHscroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1C17B2B12436400B69B23 /* promoHscroll.swift */; };
 		DEB1C17E2B1299FE00B69B23 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1C17D2B1299FE00B69B23 /* menuView.swift */; };
+		DEC8CCF12B185662005F7720 /* combosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CCF02B185662005F7720 /* combosView.swift */; };
+		DEC8CCF32B185877005F7720 /* favsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CCF22B185877005F7720 /* favsView.swift */; };
+		DEC8CCF52B185E45005F7720 /* tacoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CCF42B185E45005F7720 /* tacoViews.swift */; };
+		DEC8CCF72B1860D5005F7720 /* burritoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CCF62B1860D5005F7720 /* burritoView.swift */; };
+		DEC8CCF92B18634B005F7720 /* drinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CCF82B18634B005F7720 /* drinksView.swift */; };
 		DED0EF0D2B097A9D00F5D79D /* tacobellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0EF0C2B097A9D00F5D79D /* tacobellApp.swift */; };
 		DED0EF0F2B097A9D00F5D79D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0EF0E2B097A9D00F5D79D /* ContentView.swift */; };
 		DED0EF112B097A9E00F5D79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED0EF102B097A9E00F5D79D /* Assets.xcassets */; };
 		DED0EF142B097A9E00F5D79D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED0EF132B097A9E00F5D79D /* Preview Assets.xcassets */; };
+		DEEF29932B170AD2001BCD63 /* CustomSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEF29922B170AD2001BCD63 /* CustomSwitcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE30A5F72B1388E600E2797F /* rewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewardsView.swift; sourceTree = "<group>"; };
 		DE30A5F92B1388EF00E2797F /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
 		DE30A5FB2B13901E00E2797F /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		DE4A6A942B171EE4008C5ECF /* newItemsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newItemsMenuView.swift; sourceTree = "<group>"; };
+		DE6B6A652B16720500B2B72C /* homeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewModel.swift; sourceTree = "<group>"; };
 		DEB1C17B2B12436400B69B23 /* promoHscroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = promoHscroll.swift; sourceTree = "<group>"; };
 		DEB1C17D2B1299FE00B69B23 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
+		DEC8CCF02B185662005F7720 /* combosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combosView.swift; sourceTree = "<group>"; };
+		DEC8CCF22B185877005F7720 /* favsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favsView.swift; sourceTree = "<group>"; };
+		DEC8CCF42B185E45005F7720 /* tacoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tacoViews.swift; sourceTree = "<group>"; };
+		DEC8CCF62B1860D5005F7720 /* burritoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burritoView.swift; sourceTree = "<group>"; };
+		DEC8CCF82B18634B005F7720 /* drinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinksView.swift; sourceTree = "<group>"; };
 		DED0EF092B097A9D00F5D79D /* tacobell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tacobell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED0EF0C2B097A9D00F5D79D /* tacobellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tacobellApp.swift; sourceTree = "<group>"; };
 		DED0EF0E2B097A9D00F5D79D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DED0EF102B097A9E00F5D79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED0EF132B097A9E00F5D79D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEEF29922B170AD2001BCD63 /* CustomSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE6B6A672B16725400B2B72C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE30A5FB2B13901E00E2797F /* homeView.swift */,
+				DEB1C17D2B1299FE00B69B23 /* menuView.swift */,
+				DE30A5F72B1388E600E2797F /* rewardsView.swift */,
+				DE30A5F92B1388EF00E2797F /* profileView.swift */,
+				DE4A6A942B171EE4008C5ECF /* newItemsMenuView.swift */,
+				DEC8CCF02B185662005F7720 /* combosView.swift */,
+				DEC8CCF22B185877005F7720 /* favsView.swift */,
+				DEC8CCF42B185E45005F7720 /* tacoViews.swift */,
+				DEC8CCF62B1860D5005F7720 /* burritoView.swift */,
+				DEC8CCF82B18634B005F7720 /* drinksView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE6B6A682B16726B00B2B72C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEEF29922B170AD2001BCD63 /* CustomSwitcher.swift */,
+				DEB1C17B2B12436400B69B23 /* promoHscroll.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE6B6A692B16727500B2B72C /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B6A652B16720500B2B72C /* homeViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		DED0EF002B097A9D00F5D79D = {
 			isa = PBXGroup;
 			children = (
@@ -61,14 +111,11 @@
 		DED0EF0B2B097A9D00F5D79D /* tacobell */ = {
 			isa = PBXGroup;
 			children = (
-				DED0EF0E2B097A9D00F5D79D /* ContentView.swift */,
-				DE30A5FB2B13901E00E2797F /* homeView.swift */,
-				DEB1C17D2B1299FE00B69B23 /* menuView.swift */,
-				DE30A5F72B1388E600E2797F /* rewardsView.swift */,
-				DE30A5F92B1388EF00E2797F /* profileView.swift */,
+				DE6B6A692B16727500B2B72C /* View Models */,
+				DE6B6A682B16726B00B2B72C /* Models */,
 				DED0EF0C2B097A9D00F5D79D /* tacobellApp.swift */,
-				DEB1C17B2B12436400B69B23 /* promoHscroll.swift */,
-				DED0EF102B097A9E00F5D79D /* Assets.xcassets */,
+				DED0EF0E2B097A9D00F5D79D /* ContentView.swift */,
+				DE6B6A672B16725400B2B72C /* Views */,
 				DED0EF122B097A9E00F5D79D /* Preview Content */,
 			);
 			path = tacobell;
@@ -78,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				DED0EF132B097A9E00F5D79D /* Preview Assets.xcassets */,
+				DED0EF102B097A9E00F5D79D /* Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -153,12 +201,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED0EF0F2B097A9D00F5D79D /* ContentView.swift in Sources */,
+				DEC8CCF92B18634B005F7720 /* drinksView.swift in Sources */,
 				DEB1C17E2B1299FE00B69B23 /* menuView.swift in Sources */,
 				DE30A5FC2B13901E00E2797F /* homeView.swift in Sources */,
+				DE6B6A662B16720500B2B72C /* homeViewModel.swift in Sources */,
 				DE30A5FA2B1388EF00E2797F /* profileView.swift in Sources */,
 				DEB1C17C2B12436400B69B23 /* promoHscroll.swift in Sources */,
 				DE30A5F82B1388E600E2797F /* rewardsView.swift in Sources */,
+				DEC8CCF12B185662005F7720 /* combosView.swift in Sources */,
+				DEC8CCF32B185877005F7720 /* favsView.swift in Sources */,
+				DE4A6A952B171EE4008C5ECF /* newItemsMenuView.swift in Sources */,
 				DED0EF0D2B097A9D00F5D79D /* tacobellApp.swift in Sources */,
+				DEEF29932B170AD2001BCD63 /* CustomSwitcher.swift in Sources */,
+				DEC8CCF72B1860D5005F7720 /* burritoView.swift in Sources */,
+				DEC8CCF52B185E45005F7720 /* tacoViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

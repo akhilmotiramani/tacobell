@@ -8,28 +8,26 @@ extension Color {
 
 
 struct ContentView: View {
-    @State private var userName: String = ""
+    @StateObject var vm = homeViewModel()
     
     var body: some View {
         TabView{
-            homeView(name: $userName)
+            homeView(vm: vm)
                 .tabItem(){
                     Image(systemName: "bell")
                     Text("Home")
                 }
-            
             menuView()
                 .tabItem(){
                     Image(systemName: "takeoutbag.and.cup.and.straw")
                     Text("Menu")
                 }
-            
             rewardsView()
                 .tabItem(){
                     Image(systemName: "flame")
                     Text("Rewards")
                 }
-            profileView()
+            profileView(vm:vm)
                 .tabItem(){
                     Image(systemName: "person.crop.circle")
                     Text("Profile")
@@ -45,8 +43,6 @@ struct ContentView: View {
                 UITabBar.appearance().scrollEdgeAppearance = appearance
             }
         }
-     
-        
     }
 }
 
